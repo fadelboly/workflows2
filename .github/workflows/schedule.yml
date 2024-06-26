@@ -1,0 +1,6 @@
+name: app
+
+on: 
+  schedule:
+    - cron: '10 * * * *'
+
