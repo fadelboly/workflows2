@@ -2,7 +2,7 @@ name: app
 
 on: 
   schedule:
-    - cron: '5 * * * *'
+    - cron: '*/1 * * * *'
 
 jobs:
   say_hello: 
